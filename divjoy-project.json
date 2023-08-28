@@ -437,7 +437,7 @@
           "type": "instance",
           "componentId": 2945315,
           "id": 9291087,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \" \",\n  // normal, medium, large\n  size: \"large\",\n  // Background image URL\n    bgImage: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/peynirg%C3%B6rsel+web+giri%C5%9F-.png\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 100,\n  // Text content\n  title: \"  \",\n  subtitle: \"  \",\n  // Button\n \tbuttonText: \"İletişime geç\",\n  // default, primary, secondary, inherit\n  buttonColor: \"big\",\n  buttonPath: \"/pricing\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \" \",\n  // normal, medium, large\n  size: \"large\",\n  // Background image URL\n    bgImage: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-but-peynir-gorsel-giris.jpg\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 100,\n  // Text content\n  title: \"  \",\n  subtitle: \"  \",\n  // Button\n \tbuttonText: \"İletişime geç\",\n  // default, primary, secondary, inherit\n  buttonColor: \"big\",\n  buttonPath: \"/pricing\",\n}",
           "isVisible": true,
           "children": []
         },
@@ -1658,7 +1658,7 @@
                       "type": "instance",
                       "componentId": 174532,
                       "id": 611858,
-                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n  href: \"/about\",\n}",
+                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n  href: \"/\",\n}",
                       "children": [
                         {
                           "type": "instance",
@@ -1684,7 +1684,7 @@
                       "type": "instance",
                       "componentId": 174532,
                       "id": 8520306,
-                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n  href: \"/faq\",\n}",
+                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n  href: \"/hakkimizda\",\n}",
                       "children": [
                         {
                           "type": "instance",
@@ -1710,7 +1710,7 @@
                       "type": "instance",
                       "componentId": 174532,
                       "id": 8681463,
-                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n  href: \"/about\",\n}",
+                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n  href: \"/sss\",\n}",
                       "children": [
                         {
                           "type": "instance",
@@ -1736,7 +1736,7 @@
                       "type": "instance",
                       "componentId": 174532,
                       "id": 9884705,
-                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n href: \"https://app.mysite.com/auth/signin\",\n}",
+                      "attributes": "{\n\tbutton: true,\n  component: \"a\",\n href: \"contact\",\n}",
                       "children": [
                         {
                           "type": "instance",
@@ -1838,7 +1838,7 @@
       "type": "component",
       "id": 3192535,
       "name": "ContentCardsSection",
-      "code": "  const items = [\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/beyaz+peynir.jpg\",\n      title: \"Beyaz Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-beyaz-peynir\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/lor-peyniri-web+.jpg\",\n      title: \"Lor Peyniri\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-lor-peyniri\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/klasik+peynir+web+.jpg\",\n      title: \"Klasik Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-klasik-peynir\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tereyag+web+.jpg\",\n      title: \"Tereyağ\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-tereyag\",\n    },\n  ];\n",
+      "code": "  const items = [\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-beyaz-peynir-web.jpg\",\n      title: \"Beyaz Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-beyaz-peynir\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-lor-peynir-web.jpg\",\n      title: \"Lor Peyniri\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-lor-peyniri\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-klasik-peynir-web.jpg\",\n      title: \"Klasik Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-klasik-peynir\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-tereyag-web.jpg\",\n      title: \"Tereyağ\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-tereyag\",\n    },\n  ];\n",
       "muiStyle": "{\n  media: {\n    height: 160,\n  },\n}",
       "children": [
         {
@@ -3523,7 +3523,7 @@
           "type": "instance",
           "componentId": 4316081,
           "id": 1453097,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Beyaz Peynir\",\n  subtitle: \"Beyaz peynir koyun, inek veya keçi sütünden yapılan, salamurada bekletilerek hazırlanan beyaz renkli bir Türk peynirdir. Beyaz peynir Türkiye ve komşu ülkelerinde tercih edilen peynir türüdür. Özellikle kahvaltıda tüketilen beyaz peynir, ayrıca börek, pide, makarna ve diğer hamur işleri için de sıkça kullanılır.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/beyaz+peynir.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Beyaz Peynir\",\n  subtitle: \"Beyaz peynir koyun, inek veya keçi sütünden yapılan, salamurada bekletilerek hazırlanan beyaz renkli bir Türk peynirdir. Beyaz peynir Türkiye ve komşu ülkelerinde tercih edilen peynir türüdür. Özellikle kahvaltıda tüketilen beyaz peynir, ayrıca börek, pide, makarna ve diğer hamur işleri için de sıkça kullanılır.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-beyaz-peynir-web.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
           "isVisible": true,
           "children": [],
           "libraryName": "HeroSection"
@@ -3678,7 +3678,7 @@
           "type": "instance",
           "componentId": 4316081,
           "id": 931217,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Lor Peyniri\",\n  subtitle: \"Lor, yumuşak kıvamlı peynir altı suyunun pıhtılaştırılması ile elde edilen bir mandıra ürünüdür. \",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/lor-peyniri-web+.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Lor Peyniri\",\n  subtitle: \"Lor, yumuşak kıvamlı peynir altı suyunun pıhtılaştırılması ile elde edilen bir mandıra ürünüdür. \",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-lor-peynir-web.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
           "isVisible": true,
           "children": [],
           "libraryName": "HeroSection"
@@ -3708,7 +3708,7 @@
           "type": "instance",
           "componentId": 4316081,
           "id": 5475905,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Klasik Peynir\",\n  subtitle: \"Dağılmayan yapıya sahip olup, küçük çaplı gözenekleri bulunan beyazımtrak açık sarı renkte olan peynir, sütün muhteviyatında bulunan süt yağından kaynaklanan kaymakımsı bir tada sahiptir.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/klasik+peynir+web+.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Klasik Peynir\",\n  subtitle: \"Dağılmayan yapıya sahip olup, küçük çaplı gözenekleri bulunan beyazımtrak açık sarı renkte olan peynir, sütün muhteviyatında bulunan süt yağından kaynaklanan kaymakımsı bir tada sahiptir.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-klasik-peynir-web.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
           "isVisible": true,
           "children": [],
           "libraryName": "HeroSection"
@@ -3738,7 +3738,7 @@
           "type": "instance",
           "componentId": 4316081,
           "id": 2737728,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Tereyağ\",\n  subtitle: \"Tereyağı, ana maddesi süt yağı olan bir mandıra ürünüdür. Tereyağının bileşiminde yaklaşık %80 oranında süt yağı, su, süt şekeri, mineraller, kolesterin, suda çözülmüş vitaminler, protein, asitler ve aroma veren maddeler yer alır. Tereyağı, gıda ve kozmetik sanayisinde kullanılan bir hammaddedir.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tereyag+web+.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Tereyağ\",\n  subtitle: \"Tereyağı, ana maddesi süt yağı olan bir mandıra ürünüdür. Tereyağının bileşiminde yaklaşık %80 oranında süt yağı, su, süt şekeri, mineraller, kolesterin, suda çözülmüş vitaminler, protein, asitler ve aroma veren maddeler yer alır. Tereyağı, gıda ve kozmetik sanayisinde kullanılan bir hammaddedir.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-tereyag-web.jpg\",\n  // Button\n \tbuttonText: \"sipariş ver\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
           "isVisible": true,
           "children": [],
           "libraryName": "HeroSection"
@@ -3862,7 +3862,7 @@
           "type": "instance",
           "componentId": 4316081,
           "id": 6195502,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Sezonluk Peynir\",\n  subtitle: \"Sezonluk koyun ve keçi sütlerinden üretilmiştir. Kuru madde de en az %45 süt yağı içerir. Muhafaza Koşulu: 2-4 C'de muhafaza ediniz. Alerjen: Laktoz içerir.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/sezonluk+peynir+web+.jpg\",\n  // Button\n \tbuttonText: \"İletişime geç\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Sezonluk Peynir\",\n  subtitle: \"Sezonluk koyun ve keçi sütlerinden üretilmiştir. Kuru madde de en az %45 süt yağı içerir. Muhafaza Koşulu: 2-4 C'de muhafaza ediniz. Alerjen: Laktoz içerir.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-sezonluk-peynir-web.jpg\",\n  // Button\n \tbuttonText: \"İletişime geç\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
           "isVisible": true,
           "children": [],
           "libraryName": "HeroSection"
@@ -3872,7 +3872,7 @@
     {
       "type": "component",
       "name": "ContentCardsSection",
-      "code": "  const items = [\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/sezonluk+peynir+web+.jpg\",\n      title: \"Sezonluk Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-sezonluk-peynir\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/light+peynir.jpg\",\n      title: \"Light Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-light-peynir\",\n    },\n    {\n      image: \"\",\n      title: \"\",\n      body:\n        \"\",\n      url: \"\",\n    },\n    {\n      image: \"\",\n      title: \"\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-tereyag\",\n    },\n  ];\n",
+      "code": "  const items = [\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-sezonluk-peynir-web.jpg\",\n      title: \"Sezonluk Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-sezonluk-peynir\",\n    },\n    {\n      image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-light-peynir-web.jpg\",\n      title: \"Light Peynir\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-light-peynir\",\n    },\n    {\n      image: \"\",\n      title: \"\",\n      body:\n        \"\",\n      url: \"\",\n    },\n    {\n      image: \"\",\n      title: \"\",\n      body:\n        \"\",\n      url: \"/urunlerimiz-tereyag\",\n    },\n  ];\n",
       "muiStyle": "{\n  media: {\n    height: 160,\n  },\n}",
       "children": [
         {
@@ -4028,7 +4028,7 @@
           "type": "instance",
           "componentId": 4316081,
           "id": 4483188,
-          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Light Peynir\",\n  subtitle: \"Light Beyaz Peynir hafif ve lezzetli light peyniri kahvaltının yanı sıra diğer öğünlerde de afiyetle yiyebilirsiniz.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/light+peynir.jpg\",\n  // Button\n \tbuttonText: \"iletişime geç\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
+          "attributes": "{\n\t// Background\n  // default, light, primary, secondary,\n  // inherit, transparent\n  bgColor: \"default\",\n  // normal, medium, large\n  size: \"medium\",\n  // Background image URL\n  bgImage: \"\",\n  // Background image opacity (0-1)\n  bgImageOpacity: 1,\n  // Text content\n  title: \"Light Peynir\",\n  subtitle: \"Light Beyaz Peynir hafif ve lezzetli light peyniri kahvaltının yanı sıra diğer öğünlerde de afiyetle yiyebilirsiniz.\",\n  // Image\n  image: \"https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-light-peynir-web.jpg\",\n  // Button\n \tbuttonText: \"iletişime geç\",\n  // default, primary, secondary, inherit\n  buttonColor: \"primary\",\n  buttonPath: \"/iletisimegec\",\n}",
           "isVisible": true,
           "children": [],
           "libraryName": "HeroSection"

@@ -15,7 +15,7 @@ function IndexPage(props) {
       <HeroSection
         bgColor=" "
         size="large"
-        bgImage="https://tokyaykereste.s3.eu-central-1.amazonaws.com/peynirg%C3%B6rsel+web+giri%C5%9F-.png"
+        bgImage="https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-but-peynir-gorsel-giris.jpg"
         bgImageOpacity={100}
         title="  "
         subtitle="  "

@@ -23,14 +23,14 @@ function ContentCardsSection2(props) {
   const items = [
     {
       image:
-        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/sezonluk+peynir+web+.jpg",
+        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-sezonluk-peynir-web.jpg",
       title: "Sezonluk Peynir",
       body: "",
       url: "/urunlerimiz-sezonluk-peynir",
     },
     {
       image:
-        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/light+peynir.jpg",
+        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-light-peynir-web.jpg",
       title: "Light Peynir",
       body: "",
       url: "/urunlerimiz-light-peynir",

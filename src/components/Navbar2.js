@@ -113,28 +113,26 @@ function Navbar2(props) {
           className={classes.drawerList}
           onClick={() => setDrawerOpen(false)}
         >
-          <Link href="/about" passHref={true}>
+          <Link href="/" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>Anasayfa</ListItemText>
             </ListItem>
           </Link>
-          <Link href="/faq" passHref={true}>
+          <Link href="/hakkimizda" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>Hakkımızda</ListItemText>
             </ListItem>
           </Link>
-          <Link href="/about" passHref={true}>
+          <Link href="/sss" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>Sıkça Sorulan Sorular</ListItemText>
             </ListItem>
           </Link>
-          <ListItem
-            button={true}
-            component="a"
-            href="https://app.mysite.com/auth/signin"
-          >
-            <ListItemText>İletişim</ListItemText>
-          </ListItem>
+          <Link href="contact" passHref={true}>
+            <ListItem component="a" button={true}>
+              <ListItemText>İletişim</ListItemText>
+            </ListItem>
+          </Link>
           <ListItem>
             <IconButton
               color="inherit"

@@ -14,7 +14,7 @@ function UrunlerimizKlasikPeynirPage(props) {
         bgImageOpacity={1}
         title="Klasik Peynir"
         subtitle="Dağılmayan yapıya sahip olup, küçük çaplı gözenekleri bulunan beyazımtrak açık sarı renkte olan peynir, sütün muhteviyatında bulunan süt yağından kaynaklanan kaymakımsı bir tada sahiptir."
-        image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/klasik+peynir+web+.jpg"
+        image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-klasik-peynir-web.jpg"
         buttonText="sipariş ver"
         buttonColor="primary"
         buttonPath="/iletisimegec"

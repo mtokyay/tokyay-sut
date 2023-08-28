@@ -23,28 +23,28 @@ function ContentCardsSection(props) {
   const items = [
     {
       image:
-        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/beyaz+peynir.jpg",
+        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-beyaz-peynir-web.jpg",
       title: "Beyaz Peynir",
       body: "",
       url: "/urunlerimiz-beyaz-peynir",
     },
     {
       image:
-        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/lor-peyniri-web+.jpg",
+        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-lor-peynir-web.jpg",
       title: "Lor Peyniri",
       body: "",
       url: "/urunlerimiz-lor-peyniri",
     },
     {
       image:
-        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/klasik+peynir+web+.jpg",
+        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-klasik-peynir-web.jpg",
       title: "Klasik Peynir",
       body: "",
       url: "/urunlerimiz-klasik-peynir",
     },
     {
       image:
-        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tereyag+web+.jpg",
+        "https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-tereyag-web.jpg",
       title: "Tereyağ",
       body: "",
       url: "/urunlerimiz-tereyag",

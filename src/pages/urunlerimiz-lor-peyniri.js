@@ -14,7 +14,7 @@ function UrunlerimizLorPeyniriPage(props) {
         bgImageOpacity={1}
         title="Lor Peyniri"
         subtitle="Lor, yumuşak kıvamlı peynir altı suyunun pıhtılaştırılması ile elde edilen bir mandıra ürünüdür. "
-        image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/lor-peyniri-web+.jpg"
+        image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-sut-lor-peynir-web.jpg"
         buttonText="sipariş ver"
         buttonColor="primary"
         buttonPath="/iletisimegec"
