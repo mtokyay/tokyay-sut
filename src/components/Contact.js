@@ -25,7 +25,7 @@ function Contact(props) {
         // Show success alert message
         setFormAlert({
           type: "success",
-          message: "Your message has been sent!",
+          message: "Mesajınız gönderildi.",
         });
       })
       .catch((error) => {
@@ -62,7 +62,7 @@ function Contact(props) {
                 helperText={errors.name && errors.name.message}
                 fullWidth={true}
                 inputRef={register({
-                  required: "Please enter your name",
+                  required: "Lütfen adınızı yazınız",
                 })}
               />
             </Grid>
@@ -78,7 +78,7 @@ function Contact(props) {
               helperText={errors.email && errors.email.message}
               fullWidth={true}
               inputRef={register({
-                required: "Please enter your email",
+                required: "Lütfen e-posta adresinizi yazınız",
               })}
             />
           </Grid>
@@ -94,7 +94,7 @@ function Contact(props) {
               helperText={errors.message && errors.message.message}
               fullWidth={true}
               inputRef={register({
-                required: "Please enter a message",
+                required: "Lütfen mesajınızı yazınız",
               })}
             />
           </Grid>
